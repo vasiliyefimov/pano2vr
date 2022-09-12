@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama appversion="6.1.11" id="node1" apprev="18043">
+  <input leveltilesize="510" levelbias="0.400" width="1024" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1024" levelingroll="0">
+    <level width="1024" preload="0" predecode="0" height="1024"/>
+    <level width="512" preload="0" predecode="0" height="512"/>
+    <level width="256" preload="1" predecode="1" height="256"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view pannorth="0" fovmode="0">
+    <start tilt="0" pan="0" fov="70" projection="4"/>
+    <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+    <min tilt="-90" pan="0" fovpixel="2"/>
+    <max fovstereographic="270" tilt="90" pan="360" fov="120" scaletofit="1" fovfisheye="360"/>
+  </view>
+  <userdata description="" longitude="" datetime="" tags="360" title="" info="" heading="0" comment="" latitude="" nodeid="node1" author="" copyright="" source="" customnodeid=""/>
+  <hotspots width="180" wordwrap="1" height="20">
+    <label border="1" textcolor="0x000000" backgroundalpha="1" width="180" background="1" borderalpha="1" enabled="1" borderradius="1" wordwrap="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1"/>
+    <polystyle mode="0" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1"/>
+  </hotspots>
+  <media/>
+  <transition zoomfov="20" softedge="0" zoomin="0" zoomspeed="2" zoomafterinfov="90" zoomout="0" enabled="1" blendtime="1" type="crossdissolve" blendcolor="0x000000" zoomafteroutfov="20" zoomoutpause="1"/>
+  <flyintransition speed="2.00" enabled="1"/>
+  <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+  <control lockedkeyboard="0" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" hideabout="0" lockedmouse="0" contextprojections="0" sensitivity="8" rubberband="0" lockedwheel="0" simulatemass="1" invertcontrol="1"/>
+</panorama>
